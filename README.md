@@ -34,7 +34,7 @@ chaos. Thus, in this project, we aim to build an accurate DL-model to detect and
 ### Data description
 
 ISOT Fake News Dataset includes both fake and real news articles. This dataset is collected and
-provided in this IOST research lab [here] (https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/) . Articles were retrieved by crawling Reuters.com (News
+provided in this IOST research lab [here](https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/) . Articles were retrieved by crawling Reuters.com (News
 website) for truthful articles. Several sources were used to collect the fake news articles. It is
 important to note that the fake news articles were gathered from unreliable websites that were
 flagged by Politifact (a fact-checking organization in the United States) and Wikipedia. Various
@@ -45,7 +45,7 @@ news topics.
 
 ### Proposed architecture
 
-![Model architecture]()
+![Model architecture](https://github.com/RaghadKhaled/Fake_News_Classification/blob/main/Proposed%20architecture.jpg)
 
 We use the title and content of the articles as input to our model, instead of using only the title or only the content. Because we want to preserve the
 important terms that help to make the final decision. For preprocessing step, we perform a
